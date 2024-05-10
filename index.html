@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="./src/js/header.js"></script>
+    <title>Moccha</title>
+</head>
+
+<body data-bs-theme="">
+    <header>
+        <nav id="header" class="navbar sticky-top navbar-expand-md px-3 pt-3">
+            <div class="container-fluid flex-column align-items-start vw-100">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar_content">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar_content">
+                    <ul class="navbar-nav mb-2 px-2 gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Início</a>
+
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sobre</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Grãos</a></li>
+                                <li><a class="dropdown-item" href="#">Produção</a></li>
+                                <!-- <li><hr class="dropdown-divider"></li> -->
+                                <li><a class="dropdown-item" href="#">Experiência</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Produtos</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="#">Café</a></li>
+                                <li><a class="dropdown-item" href="#">Roupas</a></li>
+                                <!-- <li><hr class="dropdown-divider"></li> -->
+                                <li><a class="dropdown-item" href="#">Máquinas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Distribuição</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="#">São Paulo</a></li>
+                                <li><a class="dropdown-item" href="#">Vale do Paraíba</a></li>
+                                <!-- <li><hr class="dropdown-divider"></li> -->
+                                <li><a class="dropdown-item" href="#">Rio de Janeiro</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Páginas</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="#">Instagram</a></li>
+                                <li><a class="dropdown-item" href="#">Facebook</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="header-hr">
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid p-0 overflow-x-hidden">
+        <section class="branding-section">
+            <div class="row g-0 align-items-center h-100">
+                <div class="col-12">
+                    <div class="logo-banner d-flex w-100 align-items-center flex-column">
+                        <img src="./src/images/logo.png" alt="">
+                        <!-- <h2 class="welcome-text text-white mt-3">Welcome to</h2> -->
+                        <h1 class="text-white mt-5 branding-text text-center">Premium Coffee Production</h1>
+                        <div class="input-group justify-content-center mt-5">
+                            <button type="button" class="shop-btn">SHOP</button>
+                            <button type="button" class="about-btn">ABOUT US</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-section pb-5 vw-100 g-0 g-0">
+            <div class="row g-0 p-0 m-0 justify-content-center position-relative">
+                <div class="section-divider">
+                    <div class="hr"></div>
+                    <i class="fi fi-ts-angle-circle-down scroll-icon"></i>
+                    <div class="hr"></div>
+                </div>
+                <div class="row d-flex justify-content-center mt-5 gap-3">
+                    <h1 class="section-title text-center mb-5">ABOUT <span class="color-text">US</span></h1>
+
+                    <div class="col-lg-3 col-sm-8 g-0 p-0">
+                        <img class="about-img" src="./src/images/about-img.jpg" alt="">
+                    </div>
+                    <div class="col-lg-3 col-sm-8 justify-content-center">
+                        <p class="about-text">Since 1989, Moccha Cafe has been serving not just as a meeting point for
+                            coffee lovers but also as a symbol of excellence in coffee beans. Founded with the vision of
+                            offering a unique coffee experience, Moccha is more than a cafe, it’s a journey through the
+                            flavor and aroma of the most exquisite beans.
+
+                            Our passion for coffee is evident in every cup. We cultivate our own premium beans on
+                            fertile lands, where each bean is treated with the utmost care and attention. The result is
+                            a line of distinctive coffees, each with its own story and flavor profile that you won’t
+                            find anywhere else.</p>
+                        <button type="button" class="custom-btn">Learn More <i
+                                class="fi fi-rr-arrow-right btn-icon"></i></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="services-section">
+            <div class="row g-0 p-0 position-relative">
+                <div class="row justify-content-center mt-5 flex-shrink-1">
+                    <h1 class="section-title text-center">OUR <span class="color-text">SERVICES</span></h1>
+                    <div class="row pb-5 mt-5 d-flex justify-content-center">
+                        <div class="col-md-12 col-sm-12 d-flex flex-column align-items-center">
+                            <ul class="nav nav-tabs w-75" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                        data-bs-target="#coffee-tab" type="button">Coffee</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                                        data-bs-target="#bakery-tab" type="button">Bakery</button>
+                                </li>
+                                </li>
+                            </ul>
+                            <div class="tab-content p-3" id="myTabContent">
+                                <div class="tab-pane fade show active" id="coffee-tab" tabindex="0">
+                                    <div class="row g-0 p-0 gap-3 justify-content-center">
+                                        <div class="col-sm-10 col-md-4 col-lg-3 d-flex">
+                                            <div class="card">
+                                                <img src="./src/images/f1.jpg" class="card-img-top"
+                                                    alt="Morning Elegance">
+                                                <div class="card-body d-flex flex-column">
+                                                    <h5 class="card-title">Morning Elegance</h5>
+                                                    <p class="card-text">A classic cup that captures the essence of
+                                                        dawn, with a design that reflects the first rays of the sun.</p>
+                                                    <div class="button-container mt-auto">
+                                                        <a href="#" class="card-btn mt-auto">Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-10 col-md-4 col-lg-3 d-flex">
+                                            <div class="card">
+                                                <img src="./src/images/f2.jpg" class="card-img-top" alt="Urban Aroma">
+                                                <div class="card-body d-flex flex-column">
+                                                    <h5 class="card-title">Urban Aroma</h5>
+                                                    <p class="card-text">Inspired by the hustle and bustle of the city,
+                                                        this cup combines a modern style with the practicality needed
+                                                        for a coffee on the go.</p>
+                                                    <div class="button-container mt-auto">
+                                                        <a href="#" class="card-btn">Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-10 col-md-4 col-lg-3 d-flex">
+                                            <div class="card">
+                                                <img src="./src/images/f3.jpg" class="card-img-top" alt="Rustic Refuge">
+                                                <div class="card-body d-flex flex-column">
+                                                    <h5 class="card-title">Rustic Refuge</h5>
+                                                    <p class="card-text">With a handcrafted touch, this cup evokes the
+                                                        tranquility of the countryside, perfect for enjoying your coffee
+                                                        with serenity.</p>
+                                                    <div class="button-container mt-auto">
+                                                        <a href="#" class="card-btn">Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-10 col-md-4 col-lg-3 d-flex">
+                                            <div class="card">
+                                                <img src="./src/images/f4.jpg" class="card-img-top"
+                                                    alt="Minimalist Chic">
+                                                <div class="card-body d-flex flex-column">
+                                                    <h5 class="card-title">Minimalist Chic</h5>
+                                                    <p class="card-text">Clean lines and a simple aesthetic make this
+                                                        cup the ideal choice for lovers of minimalism.</p>
+                                                    <div class="button-container mt-auto">
+                                                        <a href="#" class="card-btn">Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-10 col-md-4 col-lg-3 d-flex">
+                                            <div class="card">
+                                                <img src="./src/images/f5.jpg" class="card-img-top"
+                                                    alt="Special Barista">
+                                                <div class="card-body d-flex flex-column">
+                                                    <h5 class="card-title">Special Barista</h5>
+                                                    <p class="card-text">This cup is a tribute to coffee creators, with
+                                                        details that allude to the tools and art of barismo.</p>
+                                                    <div class="button-container mt-auto">
+                                                        <a href="#" class="card-btn">Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-10 col-md-4 col-lg-3 d-flex">
+                                            <div class="card">
+                                                <img src="./src/images/f1.jpg" class="card-img-top"
+                                                    alt="Vintage Revival">
+                                                <div class="card-body d-flex flex-column">
+                                                    <h5 class="card-title">Vintage Revival</h5>
+                                                    <p class="card-text">A nod to the past, this cup features a retro
+                                                        design that brings nostalgia and charm to your coffee
+                                                        experience.</p>
+                                                    <div class="button-container mt-auto">
+                                                        <a href="#" class="card-btn">Buy</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="bakery-tab">
+                                    <div class="row g-0 p-0 gap-3 justify-content-center">
+                                        <div class="col-md-4">
+                                            <div class="card">
+                                                <img src="./src/images/vecteezy_delicious-pancakes-with-fresh-blueberries-strawberries-and_23901883.jpg"
+                                                    class="card-img-top" alt="Delicious Pancakes">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Pancakes</h5>
+                                                    <p class="card-text">Fluffy pancakes topped with fresh blueberries
+                                                        and strawberries, drizzled with golden syrup for a sweet start
+                                                        to your day.</p>
+                                                    <a href="#" class="card-btn">Buy</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card">
+                                                <img src="./src/images/vecteezy_close-up-dark-minimalist-background-realistic_30664755.jpg"
+                                                    class="card-img-top" alt="Artisan Bread">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Bread</h5>
+                                                    <p class="card-text">Crusty on the outside, soft on the inside, our
+                                                        artisan bread is baked fresh daily, perfect for your gourmet
+                                                        sandwiches.</p>
+                                                    <a href="#" class="card-btn">Buy</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card">
+                                                <img src="./src/images/vecteezy_homemade-chocolate-cake-sweet-pastry-dessert-with-brown_27793700.jpg"
+                                                    class="card-img-top" alt="Chocolate Cake">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Cake</h5>
+                                                    <p class="card-text">Indulge in our homemade chocolate cake, a sweet
+                                                        pastry dessert with rich brown frosting that melts in your
+                                                        mouth.</p>
+                                                    <a href="#" class="card-btn">Buy</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        <section class="location-section">
+            <div class="row g-0 p-0 position-relative">
+                <div class="row justify-content-center mt-5 flex-shrink-1">
+                    <h1 class="section-title text-center">DISTRIBUTION <span class="color-text">LOCATIONS</span></h1>
+                    <div class="row pb-5 mt-5 d-flex justify-content-center">
+                        <div class="col-md-9 col-sm-12">
+                            <div id="location-carousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./src/images/map.jpg" alt="" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./src/images/map2.jpg" alt="" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#location-carousel"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#location-carousel"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                            <p class="about-text mt-5">Moccha, the coffee brand cherished by connoisseurs worldwide, is
+                                proud to announce the expansion of our distribution network. Our aromatic and richly
+                                flavored coffee beans are now reaching more corners of the globe than ever before.
+
+                                From the bustling city streets of New York to the serene landscapes of Kyoto, Moccha is
+                                there to invigorate your senses. In Europe, our presence has grown in the romantic cafes
+                                of Paris, the historic squares of Rome, and the modern coffee houses of Berlin. Down
+                                under, Australians can enjoy our brews in Sydney’s vibrant coffee scene.
+
+                                In South America, we’ve made our mark in the coffee-loving cities of Bogotá and São
+                                Paulo. And let’s not forget the vibrant markets of Marrakech and Cape Town in Africa,
+                                where Moccha is fast becoming a household name.</p>
+                            <button type="button" class="custom-btn">Map <i
+                                    class="fi fi-rr-arrow-right btn-icon"></i></button>
+                            <div class="col-lg-3 col-sm-8 justify-content-center">
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        <section class="location-section">
+            <div class="row g-0 p-0 position-relative">
+                <div class="row justify-content-center mt-5 flex-shrink-1">
+                    <h1 class="section-title text-center"><span class="color-text">CONTACT</span></h1>
+                    <div class="row pb-5 mt-5 d-flex justify-content-center">
+                        <div class="col-md-8 col-sm-12 col-lg-6">
+                            <form action="">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">Nome</span>
+                                    <input type="text" placeholder="Leonardo Marinho" id="" class="form-control">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">Email</span>
+                                    <input type="text" placeholder="your@email.com" id="" class="form-control">
+                                    <span class="input-group-text ms-3">Phone</span>
+                                    <input type="text" placeholder="+55" id="" class="form-control">
+                                </div>
+                                <div class="input-group mb-3 h-50 ">
+                                    <span class="input-group-text">Message</span>
+                                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                                </div>
+                                <button class="submit-btn">SUBMIT</button>
+                            </form>
+                        </div>
+                    </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
